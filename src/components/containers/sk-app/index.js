@@ -26,8 +26,8 @@ export default class SkApp extends LitElement {
     };
   }
 
-  static get template() {
-    return html([`<style>${css}</style> ${template}`]);
+  render() {
+    return html`<style>${css}</style> ${template(this)}`;
   }
 
   render() {

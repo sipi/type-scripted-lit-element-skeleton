@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+## [2.0.0]() (2019-02-11)
+
+### Features
+
+* **lit-element:** use of lit-element instead of PolymerElement ([4ee2d9a](https://github.com/sipi/lit-element-skeleton/commit/4ee2d9a))
+
+
 <a name="1.1.6"></a>
 ## [1.1.6](https://github.com/PolymerX/polymer-skeleton/compare/v1.1.4...v1.1.6) (2019-02-04)
 

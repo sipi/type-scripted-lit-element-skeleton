@@ -1,10 +1,10 @@
 {
-  "name": "polymer-skeleton",
-  "version": "1.1.6",
+  "name": "lit-element-skeleton",
+  "version": "2.0.0",
   "main": "src/index.js",
   "license": "MIT",
-  "author": "LasaleFamine <info@godev.space>",
-  "repository": "PolymerX/polymer-skeleton",
+  "author": "Clément Sipieter <clement@6pi.fr>",
+  "repository": "sipi/lit-element-skeleton",
   "contributors": [
     "Alessio Occhipinti <info@godev.space> (https://godev.space)",
     "Mattia Astorino (http://equinsuocha.io/)"

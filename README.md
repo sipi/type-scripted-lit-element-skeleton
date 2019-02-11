@@ -1,12 +1,11 @@
-<img src="https://i.imgur.com/wWjqhW6.jpg" width="530">
+# LitElement Skeleton
 
-[![GitHub release](https://img.shields.io/github/release/PolymerX/polymer-skeleton.svg?style=flat-square)](https://github.com/PolymerX/polymer-skeleton)
-[![Build Status](https://travis-ci.org/PolymerX/polymer-skeleton.svg?style=flat-square&branch=master)](https://travis-ci.org/PolymerX/polymer-skeleton)
-[![GitHub issues](https://img.shields.io/github/issues/PolymerX/polymer-skeleton.svg?style=flat-square)](https://github.com/PolymerX/polymer-skeleton/issues)
+[![GitHub release](https://img.shields.io/github/release/sipi/lit-element-skeleton.svg?style=flat-square)](https://github.com/sipi/lit-element-skeleton)
+[![Build Status](https://travis-ci.org/sipi/lit-element-skeleton.svg?style=flat-square&branch=master)](https://travis-ci.org/sipi/lit-element-skeleton)
+[![GitHub issues](https://img.shields.io/github/issues/sipi/lit-element-skeleton.svg?style=flat-square)](https://github.com/sipi/lit-element-skeleton/issues)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
-[![Polymer Skeleton](https://img.shields.io/badge/polymerX-SKELETON-435877.svg?style=flat-square)](https://github.com/PolymerX/polymer-skeleton) [![Greenkeeper badge](https://badges.greenkeeper.io/PolymerX/polymer-skeleton.svg)](https://greenkeeper.io/)
 
-> A mininum boilerplate to deliver a Polymer 3.x with Webpack, PostCSS and Service Workers ready.
+> A mininum boilerplate to deliver a LitElement 2.x with Webpack, PostCSS and Service Workers ready.
 
 ## Features
 
@@ -20,7 +19,7 @@
 #### Loaders
 
 * [babel-loader](https://github.com/babel/babel-loader) with the [babel-preset-env](https://github.com/babel/babel-preset-env) and `babel-plugin-transform-object-rest-spread` installed.
-* [text-loader](https://github.com/dfenstermaker/text-loader) - Load HTML templates as string.
+* [text-loader](https://github.com/dfenstermaker/text-loader) - Used in conjunction with postcss-loader.
 * [postcss-loader](https://github.com/postcss/postcss-loader) - Load PostCSS into the `<style>` scoped tag of Polymer elements as string.
 
 
@@ -35,7 +34,7 @@ But as the features said, we are also transpiling the bundle for "oldie" browser
 Clone this repository:
 
 ```bash
-git clone --depth 1 https://github.com/PolymerX/polymer-skeleton [your-app-name]
+git clone --depth 1 https://github.com/sipi/lit-element-skeleton [your-app-name]
 ```
 
 Remove the `.git` folder and change details within:
@@ -87,7 +86,7 @@ During development `.pcss` files will be watched, compiled and injected to the r
 We also include Autoprefixer plugin, if you don't know how it works (...and you should), it allows you to write CSS without worrying about vendor prefixes. Just write your css properties prefix-free and let autoprefixer do the work for you when compiling.
 
 **How about commons styles?**
-You can simply `import` any other `.pcss` file within your main component `.js` file and print it inside the `template()`.
+You can simply `import` any other `.pcss` file within your main component `.js` file and print it inside the `render()`.
 
 
 ## [**@webcomponents/webcomponentsjs**](https://github.com/webcomponents/webcomponentsjs)
@@ -97,12 +96,14 @@ We are getting the `webpcomponents-loader.js` polyfill from GitHub using NPM/Yar
 
 ## Contributors
 
-| Name                      | Website                  |
-| ------------------------- | ------------------------ |
-| **Alessio Occhipinti**    | <https://godev.space>    |
-| **Mattia Astorino**       | <http://equinsuocha.io/> |
+| Name                      | Website                      |
+| ------------------------- | -----------------------------|
+| **Alessio Occhipinti**    | <https://godev.space>        |
+| **Mattia Astorino**       | <http://equinsuocha.io/>     |
+| **Clément Sipieter**      | <http://clement-sipieter.fr> |   
 
 
 ## License
 
 PolymerX © MIT
+Clément SIPIETER © MIT

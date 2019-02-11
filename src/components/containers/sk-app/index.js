@@ -1,5 +1,5 @@
 
-import { LitElement, html } from 'lit-element';
+import {LitElement, html} from 'lit-element';
 
 import css from './style.pcss';
 import template from './template';

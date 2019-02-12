@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.1"></a>
+## [2.0.1]() (2019-02-12)
+
+### Bug Fixes
+
+* **CI:** fixes errors reported by Travis. [ca764ec](https://github.com/sipi/lit-element-skeleton/commit/ca764ec))
+* **remove duplicate method:** remove a duplicate render method [2d1a073](https://github.com/sipi/lit-element-skeleton/commit/ca764ec))
+
 <a name="2.0.0"></a>
 ## [2.0.0]() (2019-02-11)
 

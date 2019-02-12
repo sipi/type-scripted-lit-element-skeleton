@@ -9,6 +9,9 @@ export default class SkApp extends LitElement {
   static readonly styles = unsafeCSS(require('./style.pcss'));
 
   @property()
+  private name: String = "";
+
+  @property()
   private appVersion: String = <String> process.env.appVersion;
 
   @property()

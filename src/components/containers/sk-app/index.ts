@@ -8,20 +8,20 @@ import '../../dumbs/sk-button';
 export default class SkApp extends LitElement {
   static readonly styles = unsafeCSS(require('./style.pcss'));
 
-  @property()
-  private name: String = "";
+  @property({type: String}) 
+  name: string = "";
 
-  @property()
-  private appVersion: String = <String> process.env.appVersion;
+  @property({attribute: false})
+  readonly APP_VERSION: string = <string> process.env.appVersion;
 
-  @property()
-  private ENV: String = <String> process.env.NODE_ENV;
+  @property({attribute: false})
+  readonly ENV: string = <string> process.env.NODE_ENV;
 
-  @property()
-  private updateReady: Boolean = false;
+  @property({attribute: false})
+  updateReady: boolean = false;
 
   protected render() {
-    return html`${template(this)}`;
+    return html`<h1>${this.title}</h1> ${template(this)}`;
   }
 
   constructor() {

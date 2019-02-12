@@ -1,11 +1,11 @@
-# LitElement Skeleton
+# TypeScripted LitElement Skeleton
 
-[![GitHub release](https://img.shields.io/github/release/sipi/lit-element-skeleton.svg?style=flat-square)](https://github.com/sipi/lit-element-skeleton)
-[![Build Status](https://travis-ci.org/sipi/lit-element-skeleton.svg?style=flat-square&branch=master)](https://travis-ci.org/sipi/lit-element-skeleton)
-[![GitHub issues](https://img.shields.io/github/issues/sipi/lit-element-skeleton.svg?style=flat-square)](https://github.com/sipi/lit-element-skeleton/issues)
+[![GitHub release](https://img.shields.io/github/release/sipi/type-scripted-lit-element-skeleton.svg?style=flat-square)](https://github.com/sipi/type-scripted-lit-element-skeleton)
+[![Build Status](https://travis-ci.org/sipi/type-scripted-lit-element-skeleton.svg?style=flat-square&branch=master)](https://travis-ci.org/sipi/type-scripted-lit-element-skeleton)
+[![GitHub issues](https://img.shields.io/github/issues/sipi/type-scripted-lit-element-skeleton.svg?style=flat-square)](https://github.com/sipi/type-scripted-lit-element-skeleton/issues)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
 
-> A mininum boilerplate to deliver a LitElement 2.x with Webpack, PostCSS and Service Workers ready.
+> A mininum boilerplate to deliver a LitElement 2.x with TypeScript, Webpack, PostCSS and Service Workers ready.
 
 ## Features
 
@@ -34,7 +34,7 @@ But as the features said, we are also transpiling the bundle for "oldie" browser
 Clone this repository:
 
 ```bash
-git clone --depth 1 https://github.com/sipi/lit-element-skeleton [your-app-name]
+git clone --depth 1 https://github.com/sipi/type-scripted-lit-element-skeleton [your-app-name]
 ```
 
 Remove the `.git` folder and change details within:
@@ -86,7 +86,7 @@ During development `.pcss` files will be watched, compiled and injected to the r
 We also include Autoprefixer plugin, if you don't know how it works (...and you should), it allows you to write CSS without worrying about vendor prefixes. Just write your css properties prefix-free and let autoprefixer do the work for you when compiling.
 
 **How about commons styles?**
-You can simply `import` any other `.pcss` file within your main component `.js` file and print it inside the `render()`.
+You can simply `import` any other `.pcss` file within your main component `.ts` file and print it inside the `render()`.
 
 
 ## [**@webcomponents/webcomponentsjs**](https://github.com/webcomponents/webcomponentsjs)

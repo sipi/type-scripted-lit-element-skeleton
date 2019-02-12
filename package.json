@@ -1,13 +1,14 @@
 {
-  "name": "lit-element-skeleton",
+  "name": "type-scripted-lit-element-skeleton",
   "version": "2.0.1",
   "main": "src/index.js",
   "license": "MIT",
   "author": "Clément Sipieter <clement@6pi.fr>",
-  "repository": "sipi/lit-element-skeleton",
+  "repository": "sipi/type-scripted-lit-element-skeleton  ",
   "contributors": [
     "Alessio Occhipinti <info@godev.space> (https://godev.space)",
-    "Mattia Astorino (http://equinsuocha.io/)"
+    "Mattia Astorino (http://equinsuocha.io/)",
+    "Clément SIPIETER <clement@6pi.fr> (http://clement-sipieter.fr)"
   ],
   "scripts": {
     "build": "webpack",
